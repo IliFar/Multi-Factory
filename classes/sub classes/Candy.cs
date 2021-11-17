@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace multifabriken_ilifar
 {
-
     class Candy : Product
     {
         public Candy()
@@ -27,9 +26,4 @@ namespace multifabriken_ilifar
         }
 
     }
-
-
-
-
-
 }

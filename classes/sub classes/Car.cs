@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace multifabriken_ilifar
 {
-
     class Car : Product
     {
-
         public Car()
         {
             Console.Clear();
@@ -25,7 +23,6 @@ namespace multifabriken_ilifar
             brand = Console.ReadLine();
 
         }
-
         public override string orderComplete()
         {
             Console.Clear();
@@ -37,9 +34,4 @@ namespace multifabriken_ilifar
             return ($"Your Cars' Order : \nYou ordered a {color} {brand} possessing the following plate number : {plateLetters.ToUpper()}{plateNumbers}");
         }
     }
-
-
-
-
-
 }

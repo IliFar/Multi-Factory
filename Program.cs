@@ -74,10 +74,12 @@ namespace multifabriken_ilifar
                         case 5:
                             Console.Clear();
                             var count = productsCollection.Count();
+                            // Check if count is less than or bigger than 0
                             if (count > 0)
                             {
                                 foreach (Product product in productsCollection)
-                                {
+                                {   
+                                    // Loop through product list and call the ordered method on each product ordered.
                                     Console.WriteLine(product.ordered());
                                     Console.WriteLine();
                                 }

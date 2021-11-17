@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace multifabriken_ilifar
 {
-
     class Strings : Product
     {
         public Strings()
@@ -26,9 +25,4 @@ namespace multifabriken_ilifar
             return ($"Your Strings' Order : \nYou ordered a {color.ToUpper()} {length}Cm String");
         }
     }
-
-
-
-
-
 }

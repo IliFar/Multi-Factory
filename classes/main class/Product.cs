@@ -21,7 +21,7 @@ namespace multifabriken_ilifar
         protected float volume;
         protected string spices;
 
-        // In Common
+        // In Common 
         protected string color;
 
 

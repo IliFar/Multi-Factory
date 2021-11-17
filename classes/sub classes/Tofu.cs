@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace multifabriken_ilifar
 {
-
     class Tofu : Product
     {
         public Tofu()
@@ -26,9 +25,4 @@ namespace multifabriken_ilifar
             return ($"Your Tofu Order : \nYou ordered {volume.ToString("N1")}L of Tofu spiced with {spices.ToUpper()}.");
         }
     }
-
-
-
-
-
 }

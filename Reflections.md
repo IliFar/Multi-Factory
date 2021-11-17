@@ -16,4 +16,4 @@ Jag försökte fånga några fel men jag har inte en djup kunskap när det gäll
 Ett problem jag stötte på var när användaren väljer att se de beställda produkterna, men jag kunde inte loopa igenom den tomma produktlistan för att tala om för användaren att hen inte har några beställningar, men jag fixade det genom att kontrollera [list.count()], om den är tom så finns det inga beställningar, och om antalet är större än 0, visa beställningarna.
 En annan sak som skulle kunna vara en förbättring är att skapa en klass för beställningarna och sedan skapa ett nytt objekt för varje beställning.
 
-[Till-slut] och som ett resultat fungerar programmet som förväntat och kraven är uppfyllda.
+[Till-slut] och som ett resultat fungerar programmet som förväntat och kraven är uppfyllda. 
