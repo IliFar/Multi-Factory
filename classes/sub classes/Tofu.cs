@@ -9,7 +9,7 @@ namespace multifabriken_ilifar
         {
             Console.Clear();
 
-            Console.Write("Please write colume in liters : ");
+            Console.Write("Please write volume in liters : ");
             volume = float.Parse(Console.ReadLine());
 
             Console.Write("Write the spices you want in your Tofu : ");
